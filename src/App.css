@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #518cd8;
+  height: 100px;
+  padding-top: 20px;
+}
+.input-box {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid orangered;
+  border-radius: 3px;
+}
+.login,
+.product {
+  margin-left: 35%;
+  margin-top: 100px;
+}
+/* .product1 {
+	margin-left: 32%;
+	margin-top: 100px;
+} */
+.signup-button {
+  margin: 21px;
+  width: 150px;
+  height: 30px;
+  background: #c58d8d;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  margin-left: 23px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #8b1c1c;
+}
+/* .delete-button {
+	width: 80px;
+	height: 30px;
+	background: #c58d8d;
+	color: white;
+	border: 0;
+	border-radius: 3px;
+} */
+.form-error {
+  margin-left: 26px;
+  font-size: 1rem;
+  color: #f3211a;
+}
+.product-list {
+  text-align: center;
+  margin-top: 100px;
+  list-style-type: none;
+}
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 10 px;
+  width: 150px;
+  text-decoration: none;
+}
+.product-list ul {
+  margin: 0;
+}
+.searchInput {
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
